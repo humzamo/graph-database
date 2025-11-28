@@ -1,0 +1,6 @@
+services:
+  gremlin-server:
+    image: tinkerpop/gremlin-server:latest
+    container_name: gremlin-server
+    ports:
+      - "8182:8182"
